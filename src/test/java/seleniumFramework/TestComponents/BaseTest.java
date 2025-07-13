@@ -56,6 +56,7 @@ public class BaseTest {
 		}
 		else if(browserName.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
+			System.out.println("new driver created");
 		}
 		else if(browserName.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
